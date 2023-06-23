@@ -1,6 +1,6 @@
 // Type definitions for http-basic 0.12.0
 // Project: http-basic
-// Definitions by: Jonathan Cardoso Machado <https://github.com/JCMais>
+// Definitions by:  <https://github.com/JCMais>
 import * as express from 'express-serve-static-core'
 
 interface HttpAuthConfig {

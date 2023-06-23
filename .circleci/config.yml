@@ -19,14 +19,14 @@ version: 2.1
 executors:
   debian:
     docker:
-      - image: jonathancardoso/debian-ci
+      - image: copied
     environment:
       RECONFIGURE_NGHTTP2: 'true'
       BASH_ENV: '/home/circleci/.bashrc'
       LATEST_LIBCURL_RELEASE: '7.86.0'
   alpine:
     docker:
-      - image: jonathancardoso/alpine-ci
+      - image: copied
     environment:
       LATEST_LIBCURL_RELEASE: '7.86.0'
 

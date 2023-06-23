@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Jonathan Cardoso Machado. All Rights Reserved.
+ * Copyright (c) . All Rights Reserved.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -845,7 +845,7 @@ class Curl extends EventEmitter {
    * Official libcurl documentation: [`curl_easy_cleanup()`](http://curl.haxx.se/libcurl/c/curl_easy_cleanup.html)
    */
   close() {
-    // TODO(jonathan): on next semver major check if this.handle.isOpen is false and if it is, return immediately.
+    // TODO(techguru0): on next semver major check if this.handle.isOpen is false and if it is, return immediately.
     curlInstanceMap.delete(this.handle)
 
     this.removeAllListeners()

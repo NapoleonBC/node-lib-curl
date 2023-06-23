@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Jonathan Cardoso Machado. All Rights Reserved.
+ * Copyright (c) . All Rights Reserved.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -1042,7 +1042,7 @@ int Easy::CbHstsRead(CURL* handle, struct curl_hstsentry* sts, void* userdata) {
 
         strcpy(sts->expire, expireCharValue);
       } else {
-        // TODO(jonathan): libcurl <= 7.79 has a bug when expire is not set, see:
+        // TODO(techguru0): libcurl <= 7.79 has a bug when expire is not set, see:
         // https://github.com/curl/curl/issues/7720 - to avoid this bug we are setting it manually
         // to a future date here
         strcpy(sts->expire, TIME_IN_THE_FUTURE);
@@ -1079,7 +1079,7 @@ int Easy::CbHstsWrite(CURL* handle, struct curl_hstsentry* sts, struct curl_inde
   v8::Local<v8::Value> typeError =
       Nan::TypeError("Return value from the HSTSWRITEFUNCTION callback must be an integer.");
 
-  // TODO(jonathan): give the option to receive an array directly?
+  // TODO(techguru0): give the option to receive an array directly?
 
   v8::Local<v8::Object> countObj = Nan::New<v8::Object>();
   v8::Local<v8::Number> index = Nan::New(static_cast<uint32_t>(count->index));

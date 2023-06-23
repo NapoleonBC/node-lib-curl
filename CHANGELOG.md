@@ -66,7 +66,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 The yes, `curly` is still experimental release. 😅
 
-If you are using `curly` in your project, and you want to share any feedback about it, please [post them in our Discord](https://discord.io/jonathancardoso). I would love to read and discuss it!
 
 ### Fixed
 - Fixed not building zstd lib statically. [#274](https://github.com/JCMais/node-libcurl/issues/274)

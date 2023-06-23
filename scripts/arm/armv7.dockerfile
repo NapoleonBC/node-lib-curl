@@ -1,4 +1,4 @@
-FROM jonathancardoso/ci-arm32v7
+FROM techguru0/ci-arm32v7
 
 # docker run --rm --name node-libcurl-arm32v7 -it -v E:\\jc\\node-libcurl:/home/circleci/node-libcurl -v /home/circleci/node-libcurl/node_modules/ -v E:\\jc\\.cache\\electron:/home/circleci/.cache/electron -v E:\\jc\\node-libcurl\\debug\\image-deps-arm32v7:/home/circleci/deps/ node-libcurl-arm32v7
 # cd ~/node-libcurl && sudo chown circleci:circleci -R ./ && sudo chown circleci:circleci -R ~/.cache

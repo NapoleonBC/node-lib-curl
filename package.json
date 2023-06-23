@@ -19,7 +19,7 @@
     "url": "git://github.com/JCMais/node-libcurl.git"
   },
   "license": "MIT",
-  "author": "Jonathan Cardoso <me@jonathancardoso.com>",
+  "author": "Tech Guru <tech.guru.k.p@gmail.com>",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "binary": {
