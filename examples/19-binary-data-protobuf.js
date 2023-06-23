@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Jonathan Cardoso Machado. All Rights Reserved.
+ * Copyright (c) . All Rights Reserved.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -86,7 +86,7 @@ async function main() {
   const RequestGreet = root.lookup('RequestGreet')
   const ResponseGreet = root.lookup('ResponseGreet')
 
-  const message = RequestGreet.create({ name: 'Jonathan', message: 'Hello!' })
+  const message = RequestGreet.create({ name: 'Tech Guru', message: 'Hello!' })
   const buffer = RequestGreet.encode(message).finish()
 
   const result = await sendProtoBufMessage(`${HOST}/greet`, buffer)

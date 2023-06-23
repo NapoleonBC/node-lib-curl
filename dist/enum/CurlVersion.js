@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CurlVersion = void 0;
 /**
- * Copyright (c) Jonathan Cardoso Machado. All Rights Reserved.
+ * Copyright (c) . All Rights Reserved.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -132,7 +132,7 @@ var CurlVersion;
      * Unicode support on Windows
      */
     CurlVersion[CurlVersion["Unicode"] = 134217728] = "Unicode";
-    // TODO(jonathan): when we add HSTS support - add it in here as 1 << 28
+    // TODO(techguru0): when we add HSTS support - add it in here as 1 << 28
     /**
      * libgsasl is supported
      */

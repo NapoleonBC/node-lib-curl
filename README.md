@@ -1,7 +1,7 @@
 # node-libcurl<!-- omit in toc -->
 
 <p align="center">
-  <a href="https://www.buymeacoffee.com/jonathancardoso" target="_blank">
+  <a href="" target="_blank">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-black.png" alt="Buy Me A Coffee" height="52px" width="190px" />
   </a>
   <br />
@@ -9,7 +9,7 @@
     <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="190px" alt="Patreon Logo">
   </a>
   <br />
-  <a href="https://discord.io/jonathancardoso" title="Join our Discord Server">
+  <a href="" title="Join our Discord Server">
     <img src="https://i.imgur.com/DlKeNmn.png" alt="Discord Logo" width="190px" />
   </a>
 </p>
@@ -466,10 +466,4 @@ Read [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## Donations / Patreon
 
-Some people have been asking if there are any means to support my work, I've created a patreon page for that: https://www.patreon.com/jonathancardoso
-
-If you want to donate via PayPal, use the same e-mail that is available on my GitHub profile: https://github.com/JCMais
-
 And thanks for reading till here! 😄
-
-_Originally this addon was based on the work from [jiangmiao/node-curl](https://github.com/jiangmiao/node-curl), things have changed and most if not all code has been rewritten._

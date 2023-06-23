@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Jonathan Cardoso Machado. All Rights Reserved.
+ * Copyright (c) . All Rights Reserved.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -129,7 +129,7 @@ export enum CurlVersion {
    */
   Unicode = 1 << 27,
 
-  // TODO(jonathan): when we add HSTS support - add it in here as 1 << 28
+  // TODO(techguru0): when we add HSTS support - add it in here as 1 << 28
 
   /**
    * libgsasl is supported

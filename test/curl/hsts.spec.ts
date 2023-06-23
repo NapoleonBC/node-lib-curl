@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Jonathan Cardoso Machado. All Rights Reserved.
+ * Copyright (c) . All Rights Reserved.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -24,7 +24,7 @@ let curl: Curl
 // using a real page for this - may cause timing issues in the tests ¯\_(ツ)_/¯
 const url = `https://owasp.org/`
 
-// TODO(jonathan): use correct type
+// TODO(techguru0): use correct type
 const getHstsCache = (): CurlHstsCacheEntry[] => [
   {
     host: 'donotcall.gov',
